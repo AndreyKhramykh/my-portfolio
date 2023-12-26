@@ -18,7 +18,7 @@
 import { defineProps } from 'vue'
 
 function getImageUrl(prop) {
-  return `/projects_images/${prop}`
+  return `/my-portfolio/projects_images/${prop}`
 }
 
 const props = defineProps({

@@ -15,7 +15,7 @@ const props = defineProps({
 })
 
 function getImageUrl(prop) {
-  return `/technologies_images/${prop}`
+  return `/my-portfolio/technologies_images/${prop}`
 }
 </script>
 
