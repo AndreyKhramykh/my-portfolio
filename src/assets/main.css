@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Source+Code+Pro:wght@300;400;600;700;900&display=swap');
+
+body {
+	font-family: 'Source Code Pro', monospace;
+	background-color: #07070b;
+}
