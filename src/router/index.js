@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 
 import ContactsPage from '../views/ContactsPage.vue'
 import MainPage from '../views/MainPage.vue';
@@ -6,7 +6,8 @@ import ProjectsPage from '../views/ProjectsPage.vue'
 import TechnologiesPage from '../views/TechnologiesPage.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  // history: createWebHistory(import.meta.env.BASE_URL), !!! why's the error in this line?
+	history: createWebHashHistory(),
   routes: [
     {
       path: '/',
