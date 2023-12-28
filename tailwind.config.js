@@ -12,6 +12,11 @@ export default {
 				white: '#cccccc',
 				grey: '#20202c'
 			},
+			screens: {
+        '1200': '1200px',
+				'768': '768px',
+				'425': '425px'
+      },
 		},
   },
   plugins: [],

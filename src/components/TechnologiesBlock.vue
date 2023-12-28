@@ -45,4 +45,14 @@ li::before {
   background-color: #009900;
   margin-right: 10px;
 }
+@media screen and (max-width: 768px) {
+  .custom-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .custom-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>

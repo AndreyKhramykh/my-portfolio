@@ -1,8 +1,12 @@
 <template>
   <NavigationMenu />
-  <div class="text-white p-8">
-    <div class="mb-10">Contact with me:</div>
-    <ContactsBlock />
+  <div class="p-8">
+    <div>
+      <div class="text-white">
+        <div class="mb-10">Contact with me:</div>
+        <ContactsBlock />
+      </div>
+    </div>
   </div>
 </template>
 

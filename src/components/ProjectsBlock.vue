@@ -17,12 +17,6 @@ import ProjectCard from '@/components/ProjectCard.vue'
 const store = useStore()
 
 const projects = store.projectsArray
-
-// function findIndex(array, elem) {
-//   return +array.indexOf(elem)
-// }
-
-// console.log(`output->import.meta.env`, import.meta.env)
 </script>
 
 <style></style>

@@ -1,5 +1,3 @@
-// import { computed, ref } from 'vue'
-
 import { defineStore } from 'pinia'
 
 export const useStore = defineStore('store', {
@@ -18,16 +16,8 @@ export const useStore = defineStore('store', {
 				{title: 'Toy-stream', description: 'Example of GameDev page', webLink: 'https://andreykhramykh.github.io/toy-stream/#/', gitHubLink: 'https://github.com/AndreyKhramykh/toy-stream', image: '9.jpg'},
 			],
 			technologies: ['JavaScript', 'HTML5, CSS3, SCSS', 'Tailwind', 'NODE.js', 'VUE, VUEX', 'Vite', 'Git', 'Pinia', 'Axios', 'Postman', 'Rest API'],
-			technologiesImg: ['0.png', '1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png', '11.png']
+			technologiesImg: ['0.png', '1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png', '11.png'],
+			isImagesLoaded: false,
 		}
 	}
 })
-// export const useCounterStore = defineStore('counter', () => {
-//   const count = ref(0)
-//   const doubleCount = computed(() => count.value * 2)
-//   function increment() {
-//     count.value++
-//   }
-
-//   return { count, doubleCount, increment }
-// })
