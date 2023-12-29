@@ -6,7 +6,7 @@ import ProjectsPage from '../views/ProjectsPage.vue'
 import TechnologiesPage from '../views/TechnologiesPage.vue'
 
 const router = createRouter({
-  // history: createWebHistory(import.meta.env.BASE_URL), !!! why's the error in this line?
+  // history: createWebHistory(import.meta.env.BASE_URL),
 	history: createWebHashHistory(),
   routes: [
     {

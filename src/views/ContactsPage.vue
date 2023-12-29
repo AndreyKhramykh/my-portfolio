@@ -3,7 +3,7 @@
   <div class="p-8">
     <div>
       <div class="text-white">
-        <div class="mb-10">Contact with me:</div>
+        <div class="mb-10">Contact me:</div>
         <ContactsBlock />
       </div>
     </div>

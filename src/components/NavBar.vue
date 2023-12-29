@@ -1,7 +1,7 @@
 <template>
   <router-link to="/projects">My projects</router-link>
   <router-link to="/technologies">My technologies</router-link>
-  <router-link to="/contacts">Contact with me</router-link>
+  <router-link to="/contacts">Contact me</router-link>
 </template>
 
 <script setup></script>

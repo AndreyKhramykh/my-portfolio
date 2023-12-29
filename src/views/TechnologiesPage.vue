@@ -4,7 +4,7 @@
   <div class="p-8" :class="{ 'content-overflow-hidden': loaderStatus }">
     <div>
       <div class="text-white">
-        <h1 class="mb-8">My technologies stack:</h1>
+        <h1 class="mb-8">My technologies and instruments stack:</h1>
         <TechnologiesBlock />
       </div>
     </div>
